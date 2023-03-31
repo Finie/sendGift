@@ -1,0 +1,41 @@
+import { ThemeColors } from './themes.types'
+
+export const lightColors: ThemeColors = {
+  primary: '#EA178D',
+  secondary: '#5C22FF',
+  accent: '#BF3EC4',
+  black: '#000000',
+  white: '#FFFFFF',
+  gray: '#434242',
+  lightGray: '#E0E0E0',
+  background: '#E7F6F2',
+  caption: '#b6b6b6',
+  headings: '#03001C',
+  bodyText: '#686868',
+  subheading: '#434242',
+  blackText: '#3A3A3A',
+  whiteText: '#FFFFFF',
+  error: '#FF0000',
+  success: '#00813F',
+  loaderBackground: 'rgba(0, 0, 0,0.7)',
+}
+
+export const darkColor: ThemeColors = {
+  primary: '#7B8FA1',
+  secondary: '#E1D7C6',
+  accent: '#BDCDD6',
+  black: '#FFFFFF',
+  white: '#000000',
+  gray: '#c0c0c0',
+  lightGray: '#f4f4f4',
+  background: '#03001C',
+  caption: '#b6b6b6',
+  headings: '#f4f4f4',
+  bodyText: '#686868',
+  subheading: 'darkgreen',
+  blackText: '#f4f4f4',
+  whiteText: '#3A3A3A',
+  error: '#FF0000',
+  success: '#00813F',
+  loaderBackground: 'rgba(0, 0, 0,0.7)',
+}
